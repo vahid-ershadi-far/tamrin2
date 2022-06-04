@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#sidenav{
+    background-color: #250029;
+    display: fixed;
+    /* display: inline-block; */
+    height: 100vh;
+    width: 200px;
+    top: 0%;
+    right: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+#sidenav nav{}
+#sidenav nav ul{
+    padding-top: 40px;
+}
+#sidenav nav ul li{
+    list-style-type: none;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+#sidenav nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+#menubtn{
+    background-color: #250029;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin: 0 10px;
+}
+#menubtn img{
+    width: 40px;
+    cursor: pointer;
+}
