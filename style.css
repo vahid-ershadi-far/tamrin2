@@ -1,4 +1,5 @@
 *{
+
     padding: 0%;
     margin: 0%;
 }
@@ -36,4 +37,64 @@
 #menubtn img{
     width: 40px;
     cursor: pointer;
+
+    padding: 0%; margin: 0%;
+}
+#baner{
+    background-image:linear-gradient(rgba(0,0,0.2,0.2),#250029), url(./images/baner.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.baner-text{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.baner-text h1{
+    font-size: 90px;
+}
+.baner-text p{
+    font-size: 30px;
+    font-style: italic;
+}
+.baner-btn{
+    text-align: center;
+    margin:70px auto 0;
+}
+.baner-btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    display: inline-block;   
+    width: 150px;
+    padding: 15px 0;
+    margin: 0 15px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.baner-btn a span{
+    background-color: white;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+.baner-btn a:hover span{
+    width: 100%;
+}
+.baner-btn a:hover {
+    color: black;
+
 }
