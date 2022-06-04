@@ -1,0 +1,27 @@
+*{
+    padding: 0%; margin: 0%;
+}
+#baner{
+    background-image:linear-gradient(rgba(0,0,0.2,0.2),#250029), url(./images/baner.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.baner-text{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.baner-text h1{
+    font-size: 90px;
+}
+.baner-text p{
+    font-size: 30px;
+    font-style: italic;
+}
